@@ -1,7 +1,9 @@
 package com.tqz.pattern.proxy.dbroute.db;
 
 /**
- * Created by Tom on 2019/3/10.
+ * @Author: tian
+ * @Date: 2020/4/19 23:41
+ * @Desc:
  */
 public class DynamicDataSourceEntity {
 

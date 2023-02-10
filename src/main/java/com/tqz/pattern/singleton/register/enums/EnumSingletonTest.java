@@ -39,7 +39,7 @@ public class EnumSingletonTest {
             Class clazz = EnumSingleton.class;
             Constructor c = clazz.getDeclaredConstructor(String.class,int.class);
             c.setAccessible(true);
-            EnumSingleton enumSingleton = (EnumSingleton)c.newInstance("Tom",666);
+            EnumSingleton enumSingleton = (EnumSingleton)c.newInstance("tqz",666);
 
         }catch (Exception e){
             e.printStackTrace();

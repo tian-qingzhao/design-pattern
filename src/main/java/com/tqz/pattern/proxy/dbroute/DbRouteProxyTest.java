@@ -2,12 +2,13 @@ package com.tqz.pattern.proxy.dbroute;
 
 import com.tqz.pattern.proxy.dbroute.proxy.JdkDynamicProxy;
 
-import java.lang.reflect.InvocationHandler;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * Created by Tom on 2019/3/10.
+ * @Author: tian
+ * @Date: 2020/4/19 23:41
+ * @Desc:
  */
 public class DbRouteProxyTest {
     public static void main(String[] args) {

@@ -1,7 +1,5 @@
 package com.tqz.pattern.singleton.lazy;
 
-import com.sun.org.apache.bcel.internal.generic.RETURN;
-
 /**
  * @Author: tian
  * @Date: 2020/4/15 17:54

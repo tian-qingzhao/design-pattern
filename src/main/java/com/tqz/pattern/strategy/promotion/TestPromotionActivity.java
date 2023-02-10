@@ -1,7 +1,5 @@
 package com.tqz.pattern.strategy.promotion;
 
-import org.omg.Messaging.SyncScopeHelper;
-
 /**
  * @Author: tian
  * @Date: 2020/4/21 22:40

@@ -1,6 +1,5 @@
 package com.tqz.pattern.template.jdbc.dao;
 
-import com.sun.scenario.effect.Merge;
 import com.tqz.pattern.template.jdbc.JdbcTemplate;
 import com.tqz.pattern.template.jdbc.Member;
 import com.tqz.pattern.template.jdbc.RowMapper;

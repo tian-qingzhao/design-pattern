@@ -3,7 +3,9 @@ package com.tqz.pattern.observer.guava;
 import com.google.common.eventbus.EventBus;
 
 /**
- * Created by Tom on 2019/3/17.
+ * @Author: tian
+ * @Date: 2020/4/23 1:14
+ * @Desc:
  */
 public class GuavaEventTest {
 

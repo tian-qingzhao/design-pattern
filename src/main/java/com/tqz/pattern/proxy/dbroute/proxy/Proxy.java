@@ -5,7 +5,6 @@ import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.util.HashMap;
@@ -114,8 +113,10 @@ public class Proxy {
 
                     sb.append("public " + m.getReturnType().getName() + " " + m.getName() + "(" + paramNames.toString() + ") {" + ln);
                         sb.append("try{" + ln);
-                            sb.append("Method m = " + interfaces[0].getName() + ".class.getMethod(\"" + m.getName() + "\",new Class[]{" + paramClasses.toString() + "});" + ln);
-                            sb.append((hasReturnValue(m.getReturnType()) ? "return " : "") + getCaseCode("this.h.invoke(this,m,new Object[]{" + paramValues + "})",m.getReturnType()) + ";" + ln);
+                            sb.append("Method m = " + interfaces[0].getName() + ".class.getMethod(\"" + m.getName() +
+                                    "\",new Class[]{" + paramClasses.toString() + "});" + ln);
+                            sb.append((hasReturnValue(m.getReturnType()) ? "return " : "") +
+                                    getCaseCode("this.h.invoke(this,m,new Object[]{" + paramValues + "})",m.getReturnType()) + ";" + ln);
                         sb.append("}catch(Error _ex) { }");
                         sb.append("catch(Throwable e){" + ln);
                         sb.append("throw new UndeclaredThrowableException(e);" + ln);

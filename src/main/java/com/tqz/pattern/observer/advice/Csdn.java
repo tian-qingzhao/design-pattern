@@ -1,7 +1,5 @@
 package com.tqz.pattern.observer.advice;
 
-import com.sun.org.apache.bcel.internal.generic.RETURN;
-
 import java.util.Observable;
 
 /**

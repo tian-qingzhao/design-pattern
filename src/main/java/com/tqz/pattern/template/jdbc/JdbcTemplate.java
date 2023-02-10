@@ -1,17 +1,12 @@
 package com.tqz.pattern.template.jdbc;
 
-import com.sun.rowset.internal.Row;
-
 import javax.sql.DataSource;
-import javax.xml.transform.Result;
-import java.security.interfaces.RSAKey;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Observer;
 
 /**
  * @Author: tian
